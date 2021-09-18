@@ -1,0 +1,16 @@
+.marg {
+    text-align: center;
+    margin-top: 5;
+}
+
+.bg-img1 {
+    background-image: url("https://ayurcentralonline.com/modules/dor_imageslider/images/f087d1c8704872c17ff2910512a57117882d7b2b_WEB%20BANNER%204.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: aliceblue;
+
+}

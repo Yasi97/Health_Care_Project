@@ -1,0 +1,55 @@
+/* Add styles to the form container */
+.container {
+    position: absolute;
+    height: 30vw;
+    width: 30vw;
+    right: 20;
+    margin: 50px;
+
+    padding: 16px;
+    background-color: rgb(120, 192, 240);
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.bg1-img {
+    /* The image used */
+    background-image: url("https://cdn.dribbble.com/users/1734000/screenshots/11165398/media/96ed06f33f696eaabd5efcd79b31f5bf.gif");
+
+    min-height: 50vw;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

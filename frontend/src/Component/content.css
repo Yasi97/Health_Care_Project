@@ -1,0 +1,43 @@
+.para {
+    font: 5vw sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1500;
+    text-align: right;
+    margin-top: 9rem;
+    margin-right: 2rem;
+    color: rgb(128, 128, 60);
+    z-index: 25;
+    text-decoration: solid;
+    text-decoration-thickness: 55;
+    text-orientation: initial;
+    transition-delay: 15s;
+
+}
+
+.para1 {
+    font: 3vw Verdana;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: 1500;
+    text-align: right;
+    margin-top: 9rem;
+    margin-right: 2rem;
+    color: #0b140de8;
+    z-index: 25;
+    text-decoration: solid;
+    text-decoration-thickness: 55;
+    text-orientation: initial;
+    transition-delay: 35s;
+
+
+}
+
+.text-block {
+    position: absolute;
+    bottom: 120px;
+    right: 20px;
+    background-color: rgb(17, 45, 65);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+

@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.bg-img {
+    /* The image used */
+    /*background-image: url("https://thumbs.dreamstime.com/b/doctor-hospital-background-copy-space-doctor-hospital-background-copy-space-healthcare-medical-concept-216372816.jpg");*/
+    background-image: url("https://www.fraserinstitute.org/sites/default/files/styles/large/public/understanding-universal-health-care-reform-options-privat-insurance.jpg?itok=VPI5FEbo");
+    min-height: 50vw;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.para {
+    font: 5vw sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1500;
+    text-align: right;
+    margin-top: 9rem;
+    margin-right: 2rem;
+    color: rgb(128, 128, 60);
+    z-index: 25;
+    text-decoration: solid;
+    text-decoration-thickness: 55;
+    text-orientation: initial;
+
+}
+
+.back {
+    background-color: #f2f2f2;
+}
